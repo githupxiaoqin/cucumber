@@ -1,0 +1,20 @@
+{
+  "name": "cucuber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chromedriver": "^2.33.2",
+    "cucumber": "^3.0.6",
+    "multiple-cucumber-html-reporter": "^1.1.0",
+    "selenium-webdriver": "^3.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    // "sendtip": "./node_modules/.bin/cucumber.js -t @sendtip -f json",
+    "sendtip": "./node_modules/.bin/cucumber.js.cmd -t @sendtip -f json"
+  },
+  "author": "",
+  "license": "ISC"
+}
